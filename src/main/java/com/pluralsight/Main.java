@@ -23,7 +23,7 @@ public class Main
                 System.out.print("Enter a search term (X to exit): ");
                 input = myScanner.nextLine();
                 if (input.equals("X")) {
-                    break;
+                    continue;
                 }
                 todayFmt = updatedDateTime();
                 bufWriter.write(todayFmt + " : " + input + "\n");
